@@ -1,0 +1,22 @@
+{
+  "name": "example/jwt-cookie-backend",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^12.0",
+    "firebase/php-jwt": "^6.11"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "scripts": {
+    "test": [
+      "@php artisan test"
+    ]
+  }
+}
